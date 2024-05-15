@@ -1,41 +1,49 @@
 {
     "czlonkowie": [
         {
+            "id":"",
             "name": "Jan",
             "day": "Wtorek",
             "hour": "18"
         },
       {
+            "id":"",
             "name": "slslsla",
             "day": "Czwartek",
             "hour": "07"
         },
       {
+            "id":"",
             "name": "slslsla",
             "day": "Piątek",
             "hour": "07"
         },
       {
+            "id":"",
             "name": "slslsla",
             "day": "Sobota",
             "hour": "07"
         },
       {
+            "id":"",
             "name": "slslsla",
             "day": "Piątek",
             "hour": "18"
         },
       {
+            "id":"",
             "name": "slslsla",
             "day": "Środa",
             "hour": "18"
         },
       {
+            "id":"",
             "name": "slslsla",
             "day": "Poniedziałek",
             "hour": "18"
         },
       {
+            "id":"",
             "name": "slslsla",
             "day": "Wtorek",
             "hour": "18"
