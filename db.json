@@ -1,0 +1,44 @@
+{
+    "czlonkowie": [
+        {
+            "name": "Jan",
+            "day": "Wtorek",
+            "hour": "18"
+        },
+      {
+            "name": "slslsla",
+            "day": "Czwartek",
+            "hour": "07"
+        },
+      {
+            "name": "slslsla",
+            "day": "Piątek",
+            "hour": "07"
+        },
+      {
+            "name": "slslsla",
+            "day": "Sobota",
+            "hour": "07"
+        },
+      {
+            "name": "slslsla",
+            "day": "Piątek",
+            "hour": "18"
+        },
+      {
+            "name": "slslsla",
+            "day": "Środa",
+            "hour": "18"
+        },
+      {
+            "name": "slslsla",
+            "day": "Poniedziałek",
+            "hour": "18"
+        },
+      {
+            "name": "slslsla",
+            "day": "Wtorek",
+            "hour": "18"
+        }
+    ]
+}
