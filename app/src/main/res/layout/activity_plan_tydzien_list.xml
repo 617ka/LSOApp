@@ -19,11 +19,54 @@
         android:textSize="35sp" />
 
     <Button
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:textColor="@color/white"
         android:id="@+id/button3"
         android:backgroundTint="#0000FF"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Przejdź do strony głównej" />
+
+    <Button
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:backgroundTint="#0000FF"
+        android:textColor="@color/white"
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pokaż wszystkich członków" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jaki parametr chcesz sprawdzić?"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:spinnerMode="dropdown" />
+
+    <EditText
+        android:id="@+id/editTextWpisane"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Wpisz parametr"
+        />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="#0000FF"
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Zatwierdź" />
 
     <ListView
         android:id="@+id/listaSluzb"
