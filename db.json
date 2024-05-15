@@ -1,49 +1,41 @@
 {
     "czlonkowie": [
         {
-            "id":"1",
             "name": "Jan",
             "day": "Wtorek",
             "hour": "18"
         },
       {
-            "id":"2",
             "name": "Karol",
             "day": "Czwartek",
             "hour": "07"
         },
       {
-            "id":"3",
             "name": "Jakub",
             "day": "Piątek",
             "hour": "07"
         },
       {
-            "id":"4",
             "name": "Mieczysław",
             "day": "Sobota",
             "hour": "07"
         },
       {
-            "id":"5",
             "name": "Marek",
             "day": "Piątek",
             "hour": "18"
         },
       {
-            "id":"6",
             "name": "Aleksy",
             "day": "Środa",
             "hour": "18"
         },
       {
-            "id":"7",
             "name": "Radosław",
             "day": "Poniedziałek",
             "hour": "18"
         },
       {
-            "id":"8",
             "name": "Edek",
             "day": "Wtorek",
             "hour": "18"
