@@ -1,83 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
-    android:layout_width="match_parent"
+
+<ScrollView android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <TextView
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#0055FF"
-        android:text="LSO Rokitnica App"
-        android:textAlignment="center"
-        android:padding="5dp"
-        android:textColor="@color/white"
-        android:textSize="35sp" />
+        android:layout_height="match_parent"
+        android:nestedScrollingEnabled="false"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0055FF"
+            android:padding="20dp"
+            android:text="LSO App"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="Dołącz do ministrantów" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Dołącz do ministrantów"
+            android:textAlignment="center"
+            android:textSize="24sp" />
 
-    <EditText
-        android:id="@+id/imie"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textCapWords"
-        android:hint="Podaj imię" />
+        <EditText
+            android:id="@+id/imie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="Podaj imię"
+            android:inputType="textCapWords"
+            android:textSize="20sp" />
 
-    <EditText
-        android:id="@+id/dzien"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textCapWords"
-        android:hint="Podaj dzień" />
+        <EditText
+            android:id="@+id/dzien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="Podaj dzień"
+            android:inputType="textCapWords"
+            android:textSize="20sp" />
 
-    <EditText
-        android:id="@+id/godzina"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="time"
-        android:hint="Podaj godzinę. Możliwa jest 7 lub 18" />
+        <EditText
+            android:id="@+id/godzina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="Podaj godzinę. Możliwa jest 7 lub 18"
+            android:inputType="time"
+            android:minWidth="340dp"
+            android:textSize="20sp" />
 
-    <Button
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:textColor="#0000FF"
-        android:id="@+id/button"
-        android:textSize="20sp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#0000FF"
-        android:text="Zatwierdź" />
+        <Button
+            android:id="@+id/button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#0000FF"
+            android:text="Zatwierdź"
+            android:textColor="#0000FF"
+            android:textSize="20sp" />
 
-    <Button
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        android:id="@+id/button2"
-        android:backgroundTint="#0000FF"
-        android:textColor="@color/white"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Przejdź do planu tygodniowego" />
+        <Button
+            android:id="@+id/button2"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:backgroundTint="#002AC3"
+            android:text="Przejdź do planu tygodniowego"
+            android:textColor="@color/white" />
 
-    <Button
-        android:id="@+id/button3"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        android:backgroundTint="#0000FF"
-        android:textColor="@color/white"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Pobierz bazę członków"
+        <Button
+
+            android:id="@+id/button3"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
 
 
-        />
+            android:layout_marginHorizontal="10dp"
+            android:backgroundTint="#2251FA"
+            android:text="Pobierz bazę członków"
+            android:textColor="@color/white" />
 
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

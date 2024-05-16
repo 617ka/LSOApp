@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -12,29 +13,31 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#0055FF"
-        android:text="LSO Rokitnica App"
+        android:padding="20dp"
+        android:text="LSO App"
         android:textAlignment="center"
-        android:padding="5dp"
         android:textColor="@color/white"
         android:textSize="35sp" />
 
     <Button
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        android:textColor="@color/white"
         android:id="@+id/button3"
-        android:backgroundTint="#0000FF"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Przejdź do strony głównej" />
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#002AC3"
+        android:text="Przejdź do strony głównej"
+        android:textColor="@color/white" />
 
     <Button
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        android:backgroundTint="#0000FF"
-        android:textColor="@color/white"
         android:id="@+id/button5"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pokaż wszystkich członków" />
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2251FA"
+        android:text="Pokaż wszystkich członków"
+        android:textColor="@color/white" />
 
     <TextView
         android:id="@+id/textView2"
@@ -48,16 +51,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="100dp"
-        android:spinnerMode="dropdown" />
+        android:padding="5dp"
+        android:paddingHorizontal="10dp"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center" />
 
     <EditText
         android:id="@+id/editTextWpisane"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="text"
         android:hint="Wpisz parametr"
-        />
+        android:inputType="text"
+        android:textSize="20sp" />
 
     <Button
         style="@style/Widget.AppCompat.Button.Borderless"
@@ -71,7 +77,7 @@
     <ListView
         android:id="@+id/listaSluzb"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent" />
 
 
 </LinearLayout>
