@@ -60,7 +60,7 @@ public class PlanTydzienList extends AppCompatActivity implements AdapterView.On
 
 
 
-
+        //przycisk przenoszący użytkownika do aktywności głównej z dodawaniem do bazy danych
         button3 = findViewById(R.id.button3);
         button3.setOnClickListener(
                 new View.OnClickListener() {
@@ -73,6 +73,10 @@ public class PlanTydzienList extends AppCompatActivity implements AdapterView.On
         );
 
         editText = findViewById(R.id.editTextWpisane);
+
+        //przycisk pokazujący część rekordów bazy danych w ListView w zależności od zaznaczoneko Spinnera 
+        //i wartości wpisanej w powyższy EditText
+        
         button4 = findViewById(R.id.button4);
         button4.setOnClickListener(
                 new View.OnClickListener() {
@@ -93,6 +97,7 @@ public class PlanTydzienList extends AppCompatActivity implements AdapterView.On
                 }
         );
 
+        //przycisk pokazujący całość rekordów bazy danych w ListView
         Button button5 = findViewById(R.id.button5);
         button5.setOnClickListener(
                 new View.OnClickListener() {
