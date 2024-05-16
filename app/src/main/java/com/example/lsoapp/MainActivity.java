@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
         button3 = findViewById(R.id.button3);
 
 
+        //przycisk dodający osobę do bazy danych
         button.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -74,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
                 }
         );
 
+        //przycisk przenoszący użytkownika do aktywności z planem służb
         button2.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -84,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
                 }
         );
 
+        //przycisk używający funkcji do pobrania danych z pliku db.json poprzez Retrofit
         button3.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -96,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //funkcja popierająca dane członków z pliku db.json za pomocą Retrofit
     public void pobierzBazeDanych() {
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://my-json-server.typicode.com/617ka/LSOApp/")
