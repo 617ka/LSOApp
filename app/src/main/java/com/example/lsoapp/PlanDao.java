@@ -7,6 +7,7 @@ import androidx.room.Query;
 
 import java.util.List;
 
+//Dao dla bazy danych z zapytaniami SQL
 @Dao
 public interface PlanDao {
     @Insert
