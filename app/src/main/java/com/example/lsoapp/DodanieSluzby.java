@@ -4,6 +4,8 @@ import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
+//klasa z danymi, metodami, a równocześnie będąca tabelą dla bazy danych 
+
 @Entity(tableName = "dodajS")
 public class DodanieSluzby {
     @PrimaryKey(autoGenerate = true)
